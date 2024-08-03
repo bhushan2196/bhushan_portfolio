@@ -250,6 +250,7 @@
     flex-direction: column;
 
     height: 500px;
+    padding: 50px 0;
   }
 
   .banner .name {
