@@ -11,8 +11,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="black" style="display: ">
+    <div class="container" style="display: none">
+      <div class="black" style="display: none">
         <div class="name">
           <h1>
             <span>bhushan</span>
@@ -22,23 +22,42 @@
           </h1>
         </div>
       </div>
-      <div class="green" style="display: "></div>
+      <div class="green" style="display: none"></div>
     </div>
     <div class="main">
       <div class="navBar">
         <li><a href="#home">home</a></li>
-        <li><a href="">about</a></li>
+        <li><a href="#about">about</a></li>
         <li><a href="">Skills</a></li>
         <li><a href="">Projects</a></li>
         <li><a href="">Contact</a></li>
       </div>
 
       <div class="banner" id="home">
-        <div class="bg-ani"></div>
-        <h1>full stack</h1>
-        <h1><span>developer</span></h1>
+        <div class="h1box">
+          <h1>full stack</h1>
+        </div>
+        <div class="h1box">
+          <h1><span>developer</span></h1>
+        </div>
+        <button><a href="">resume</a></button>
+      </div>
+      <div class="about" id="about">
+        <div class="img">
+          <img src="/img/sdf.png" alt="" />
+        </div>
+        <div class="info">
+          <p>
+            Enthusiastic full stack web developer with expertise in the MERN
+            stack. Experienced in creating solo and collaborative projects using
+            JavaScript, React, Node.js, and MongoDB. Possesses excellent
+            problem-solving skills, strong communication, and a collaborative
+            spirit. Ready to drive innovation in dynamic settings.
+          </p>
+        </div>
       </div>
     </div>
+
     <script src="index.js"></script>
   </body>
 </html>
