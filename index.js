@@ -11,6 +11,5 @@ close.addEventListener("click", function (e) {
   burger.style.width = "0%";
 });
 menu.addEventListener("click", function (e) {
-  burger.style.width = "100%";
-  
+  burger.style.width = "90%";
 });
