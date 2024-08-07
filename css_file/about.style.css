@@ -32,23 +32,19 @@
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
 }
-.info .info-para {
-  animation: fade linear forwards;
-  animation-timeline: view();
-  animation-range-start: entry;
-  animation-range-end: 500px;
-  opacity: 0;
-}
+
 .about .img img {
   /*border: 1px solid red;
   */
   height: 100%;
   width: 100%;
   object-fit: contain;
+}
+.about {
   animation: fade linear forwards;
   animation-timeline: view();
-  animation-range-start: 200px;
-  animation-range-end: 400px;
+  animation-range-start: entry 300px;
+  animation-range-end: 600px;
   opacity: 0;
 }
 @keyframes fade {

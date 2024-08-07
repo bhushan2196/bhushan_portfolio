@@ -4,6 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>portfolio</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
@@ -11,8 +13,8 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container" style="display: none">
-      <div class="black" style="display: none">
+    <div class="container" style="display: ">
+      <div class="black" style="display: ">
         <div class="name">
           <h1>
             <span>bhushan</span>
@@ -22,13 +24,14 @@
           </h1>
         </div>
       </div>
-      <div class="green" style="display: none"></div>
+      <div class="green" style="display: "></div>
     </div>
     <div class="main">
       <div class="navBar">
-        <li><a href="#home">home</a></li>
+        <li><a href="#">home</a></li>
         <li><a href="#about">about</a></li>
-        <li><a href="">Skills</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#stats">stats</a></li>
         <li><a href="">Projects</a></li>
         <li><a href="">Contact</a></li>
       </div>
@@ -57,7 +60,100 @@
           </p>
         </div>
       </div>
+
+      <div class="skill" id="skill">
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=20909&format=png&color=000000"
+            alt=""
+          />
+          <p>HTML</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=21278&format=png&color=000000"
+            alt=""
+          />
+          <p>css</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=108784&format=png&color=000000"
+            alt=""
+          />
+          <p>JavaScript</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=123603&format=png&color=000000"
+            alt=""
+          />
+          <p>React</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=egQrEphjrirz&format=png&color=000000"
+            alt=""
+          />
+          <p>Redux</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=54087&format=png&color=000000"
+            alt=""
+          />
+          <p>Node js</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=SDVmtZ6VBGXt&format=png&color=000000"
+            alt=""
+          />
+          <p>Express js</p>
+        </div>
+        <div class="tech-box">
+          <img
+            src="https://img.icons8.com/?size=100&id=bosfpvRzNOG8&format=png&color=000000"
+            alt=""
+          />
+          <p>Mongo DB</p>
+        </div>
+      </div>
+      <div class="git-stat" id="stats">
+        <img
+          src="https://github-readme-stats.vercel.app/api?username=bhushan2196&theme=dracula&show_icons=true&hide_border=true&count_private=false"
+          alt=""
+        />
+        <img
+          src="https://github-readme-streak-stats.herokuapp.com/?user=bhushan2196&theme=dracula&hide_border=true"
+          alt=""
+        />
+        <img
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=bhushan2196&theme=dracula&show_icons=true&hide_border=true&layout=compact"
+          alt=""
+        />
+      </div>
     </div>
+    <script>
+      window.addEventListener("DOMContentLoaded", () => {
+        VANTA.NET({
+          el: "#home",
+          mouseControls: true,
+          touchControls: true,
+          gyroControls: false,
+          minHeight: 500.0,
+          minWidth: 500.0,
+          scale: 1.0,
+          scaleMobile: 1.0,
+          color: 0x0,
+          backgroundColor: 0xffffff,
+          points: 3.0,
+          maxDistance: 33.0,
+          spacing: 30.0,
+          opcity: 0.5,
+        });
+      });
+    </script>
 
     <script src="index.js"></script>
   </body>
