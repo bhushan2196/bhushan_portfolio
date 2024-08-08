@@ -49,6 +49,16 @@
   animation-range-end: 600px;
   opacity: 0;
 }
+.about .head-name {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
 @keyframes fade {
   to {
     opacity: 1;
@@ -63,6 +73,11 @@
     align-items: center;
     padding: 0 2%;
     height: 100%;
+    /* background: #ff6161; */
+    height: 50lvh;
+  }
+  .about .head-name {
+    top: 10%;
   }
   .about div {
     width: 100%;
