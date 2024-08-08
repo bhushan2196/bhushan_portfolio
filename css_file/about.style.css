@@ -5,7 +5,9 @@
   padding: 0 10%;
   height: 100vh;
   /* background: #e3a5a5; */
+  position: relative;
 }
+
 .about div {
   width: 50%;
   padding: 5% 5%;
@@ -85,6 +87,7 @@
     padding: 0 2%;
     height: 80lvh;
     flex-direction: column;
+    height: 100lvh;
   }
   .about div {
     width: 100%;
@@ -92,14 +95,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 50%;
+    height: 40%;
     /* border: 1px solid red; */
 
-    border: none;
-    -webkit-border-radius: 0;
-    -moz-border-radius: 0;
-    -ms-border-radius: 0;
-    -o-border-radius: 0;
     padding: 0;
   }
   .about .img img {
@@ -109,5 +107,8 @@
   .about .info {
     font-size: 15px;
     padding: 0 20px;
+  }
+  .about .head-name {
+    top: ;
   }
 }
