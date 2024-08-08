@@ -54,8 +54,8 @@
 }
 .project-info .descriptsion {
   padding: 5% 0;
-  border-top: 1px solid white;
-  border-bottom: 1px solid white;
+  border-top: 1px solid rgb(138, 138, 138);
+  border-bottom: 1px solid rgb(138, 138, 138);
 }
 .projects .head-name {
   position: absolute;
@@ -102,7 +102,7 @@
     width: 100%;
     padding: 2%;
     height: 50%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   .project-info {
     display: flex;
