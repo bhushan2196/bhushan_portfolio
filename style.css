@@ -74,6 +74,7 @@
   color: white;
   font-weight: 400;
   font-size: 4vw;
+  text-transform: uppercase;
 }
 
 .black .name h1 {
