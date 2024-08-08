@@ -154,7 +154,7 @@
     flex-direction: column;
     gap: 5px;
     flex-wrap: nowrap;
-    background: red;
+    /* background: red; */
     padding: 15% 0;
   }
   .git-stat .head-name-stat {
