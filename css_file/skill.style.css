@@ -144,6 +144,9 @@
     filter: grayscale(0);
     -webkit-filter: grayscale(0);
   }
+  .skill .head-name {
+    top: 2%;
+  }
   .git-stat {
     width: 80%;
     height: 100%;

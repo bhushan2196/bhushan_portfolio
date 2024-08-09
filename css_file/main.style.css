@@ -19,25 +19,22 @@
   border-radius: 50px;
   z-index: 50;
   backdrop-filter: blur(3px);
-  cursor: pointer;
+  /* cursor: pointer; */
   border: 1px solid white;
 }
-.navBar:hover {
-  background: #313131;
-}
+
 .navBar li {
   list-style: none;
   text-transform: capitalize;
   cursor: pointer;
   position: relative;
   font-size: 1vw;
-  padding: 2px 3px;
 }
 
 .navBar li::before {
   content: "";
   position: absolute;
-  top: 90%;
+  top: 97%;
   left: -20%;
   height: 1px;
   width: 10%;
@@ -46,13 +43,13 @@
   z-index: -1;
 }
 .navBar li:hover::before {
-  background: #2ca57d;
+  background: #000000;
   width: 100%;
 }
 .navBar li::after {
   content: "";
   position: absolute;
-  top: 90%;
+  top: 97%;
   right: -20%;
   height: 1px;
   width: 100%;
@@ -61,16 +58,16 @@
   z-index: -1;
 }
 .navBar li:hover::after {
-  background: #2ca57d;
+  background: #000000;
   width: 10%;
 }
 .navBar li a {
   text-decoration: none;
   color: rgb(0, 0, 0);
+  /* background: #f82c2c; */
+  padding: 5px 8px;
 }
-.navBar:hover li a {
-  color: white;
-}
+
 /* ---------------------------------------banner */
 
 .banner {

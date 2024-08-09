@@ -57,9 +57,77 @@
   border-top: 1px solid rgb(138, 138, 138);
   border-bottom: 1px solid rgb(138, 138, 138);
 }
+.project .web-live {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0;
+}
+.project .web-live button {
+  border: none;
+  background: #ffffff;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  padding: 5px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+}
+.project .web-live button a {
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 7px 4px;
+  color: black;
+}
+
+.web-live button:hover a {
+  color: white;
+}
+.web-live button:hover {
+  color: white;
+  /* background: #313131; */
+}
+
+.web-live button::before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 200%;
+  background: #313131;
+  border-radius: 50%;
+  transition: all 400ms;
+  -webkit-transition: all 400ms;
+  -moz-transition: all 400ms;
+  -ms-transition: all 400ms;
+  -o-transition: all 400ms;
+  z-index: -1;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.web-live button:hover:before {
+  top: 0%;
+  height: 200%;
+  width: 100%;
+  background: #313131;
+  color: white;
+}
 .projects .head-name {
   position: absolute;
-  top: 10%;
+  top: 5%;
   left: 50%;
   transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
@@ -123,5 +191,8 @@
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     margin: 6% 0;
+  }
+  .project .web-live {
+    margin-top: 20px;
   }
 }
