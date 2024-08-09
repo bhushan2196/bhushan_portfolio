@@ -4,6 +4,7 @@
 @import url("/css_file/about.style.css");
 @import url("/css_file/skill.style.css");
 @import url("/css_file/projects.style.css");
+@import url("/css_file/contact.style.css");
 * {
   margin: 0;
   padding: 0;

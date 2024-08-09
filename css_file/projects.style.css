@@ -94,34 +94,36 @@
 }
 .web-live button:hover {
   color: white;
-  /* background: #313131; */
+  /*background: #313131;
+  */
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 
 .web-live button::before {
   content: "";
   position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
+  top: 0%;
+  left: -20%;
+
   height: 100%;
-  width: 200%;
+  width: 20px;
   background: #313131;
-  border-radius: 50%;
+  /* border-radius: 50%; */
   transition: all 400ms;
   -webkit-transition: all 400ms;
   -moz-transition: all 400ms;
   -ms-transition: all 400ms;
   -o-transition: all 400ms;
   z-index: -1;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
 }
 .web-live button:hover:before {
   top: 0%;
   height: 200%;
-  width: 100%;
+  width: 110%;
   background: #313131;
   color: white;
 }
