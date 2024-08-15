@@ -32,6 +32,17 @@
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
 }
+.links:hover {
+  background: #313131;
+  color: white;
+}
+.links:hover p a {
+  color: white;
+}
+.links:hover .links img {
+  mix-blend-mode: difference;
+  filter: invert();
+}
 .links img {
   width: 20%;
   height: 50%;
@@ -47,6 +58,8 @@
 .links p a {
   color: #313131;
   text-decoration: none;
+  padding: 50px;
+  padding-left: 10px;
 }
 .footer {
   width: 100%;
