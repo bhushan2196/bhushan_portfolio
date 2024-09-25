@@ -121,8 +121,7 @@
   -webkit-animation: slide_up 3s forwards;
   display: block;
 }
-
-@media (max-width: 768px) {
+. @media (max-width: 768px) {
   .black .name h1 {
     padding-right: 4px;
     font-size: 5vw;
